@@ -12,7 +12,7 @@ b = Set1^Set2^Set3
 print("\nElements that are in only one of the three sets Set1,Set2 and Set3 are :",b)
 
 #(c)Elements that are exactly two of the sets Set1, Set2 and Set3
-c = Set1&Set2 | Set2&Set3 | Set1&Set3
+c = Set1&Set2 ^ Set2&Set3 ^ Set1&Set3
 print("\nElements that are exactly two of the sets Set1, Set2 and Set3 are :",c)
 
 #(d)Set of all integers in the range 1 to 10 that are not in Set1
