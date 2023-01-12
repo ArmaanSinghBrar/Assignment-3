@@ -11,9 +11,9 @@ else:
     print(f"Fibonacci Sequence up to {terms} terms :")
     for i in range(terms):                     #We use a loop to keep adding the terms again and again until no of terms is reached
         print(n1)
+        Sum += n1
         nx=n1 + n2
         n1=n2
         n2=nx
-    Sum=Sum+nx-1
     Average = Sum/terms
     print(f"The average of the series = {Average}")
